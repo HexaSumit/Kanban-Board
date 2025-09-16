@@ -3,7 +3,7 @@ import { MdKeyboardDoubleArrowUp } from "react-icons/md";
 
 const TaskCard = () => {
     return (
-        <div className=" border border-gray-300 rounded-2xl w-76 p-5 flex flex-col gap-4">
+        <div className=" mb-4 bg-green-300 border border-gray-300 rounded-2xl w-76 p-5 flex flex-col gap-4">
             <div className=" flex items-center justify-between">
                 <div className=" flex items-center justify-center px-3 rounded-xl bg-green-100 text-green-600">
                     <span><MdKeyboardDoubleArrowUp /></span>
