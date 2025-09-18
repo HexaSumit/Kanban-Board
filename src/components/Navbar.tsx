@@ -3,7 +3,7 @@ import { IoSunnyOutline } from "react-icons/io5";
 import { CiShare2 } from "react-icons/ci";
 const Navbar = () => {
   return (
-    <div className=" flex items-center justify-between py-2 px-4">
+    <div className=" flex items-center justify-between py-3 px-4">
       <div className=" flex items-center gap-7">
 
         <div className=" flex items-center">
@@ -14,7 +14,7 @@ const Navbar = () => {
           <span className=" text-xl font-semibold">KanBan</span>
         </div>
 
-        <div className="flex items-center border rounded-full px-3 py-1 w-64 bg-white shadow-sm">
+        <div className="flex items-center rounded-full px-3 py-1 w-64 bg-white shadow-sm">
           <FaSearch className="text-gray-500 mr-2 text-sm" />
           <input
             type="text"
@@ -25,7 +25,7 @@ const Navbar = () => {
       </div>
 
       <div className=" flex items-center gap-5">
-        <div className=" flex items-center">
+        <div className=" flex items-center justify-center">
           <IoSunnyOutline size={20} />
           <span className=" ml-4 font-semibold">|</span>
         </div>
