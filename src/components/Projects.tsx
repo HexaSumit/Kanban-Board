@@ -1,6 +1,7 @@
 import { GoArrowDown } from "react-icons/go";
 import { IoStatsChartSharp } from "react-icons/io5";
 import { FaCircleNotch } from "react-icons/fa";
+import { PiKanbanLight } from "react-icons/pi";
 import StatusContainer from "./StatusContainer";
 
 const Projects = () => {
@@ -10,7 +11,7 @@ const Projects = () => {
             <div className="  w-[75%] px-3 py-5 rounded-2xl bg-white">
                 <div className=" px-4 flex items-center justify-between gap-10">
                     <div>
-                        <h2 className=" font-bold text-xl">Projects</h2>
+                        <p className=" flex items-center justify-center gap-1"><h2 className=" font-bold text-xl">Projects</h2><PiKanbanLight size={18}/></p>
                     </div>
                     <div className=" flex items-center gap-4">
                         <span className=" text-gray-400">AZ Sort</span>
